@@ -1,0 +1,2 @@
+export const  apiManifestUrl = `https://api.nasa.gov/mars-photos/api/v1/manifests/perseverance?api_key=${process.env.REACT_APP_NASA_API_KEY}`;
+export const apiDateBase = `https://api.nasa.gov/mars-photos/api/v1/rovers/perseverance/photos?api_key=${process.env.REACT_APP_NASA_API_KEY}&earth_date=`;
